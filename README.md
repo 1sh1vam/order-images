@@ -1,7 +1,7 @@
 # Buy Images a React App.
 
 An app where you can buy some of the images available. You can also add an image to cart or move it to wishlist. This app was created using react.
-[Click Here](https://netflix-bd20d.web.app/) to check the demo.
+[Click Here](https://buy-images.netlify.app/) to check the demo.
 
 ### Tools used
 
@@ -15,7 +15,7 @@ An app where you can buy some of the images available. You can also add an image
 
 
 ### How to use?
-In order to use this project you need to first clone this repository. Once you have cloned the repo I will recommend you to follow below process.
+In order to use this project you need to first clone this repository. Once you have cloned the repo follow the below process.
 * Create another react app folder this isn't necessary but I will recommend to do so. And then type ```npx create-react-app oreder-images```
 * Once app is succesfully created you need to start you react-app to see live changes in browser. Type ```npm start```
 * Now youu might need to install some other packages like styled-components and react-router-dom. To do this execute below commands.
