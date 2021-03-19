@@ -27,4 +27,4 @@ npm install --save styled-components
 
 ### Sample Layout
 
-![layout](https://github.com/1sh1vam/netflix/blob/main/images/Screenshot_2021-03-14%20Netflix%20India%20%E2%80%93%20Watch%20TV%20Shows%20Online%2C%20Watch%20Movies%20Online.png)
+![layout](https://github.com/1sh1vam/order-images/blob/main/images/Screenshot_2021-03-19%20React%20App(1).png)
