@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: beige;
+  align-items: center;
+  padding: 0 1em;
+}
+
+.cart_fav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart_fav .ri-heart-line,
+.cart_fav .ri-heart-fill,
+.cart_fav .ri-shopping-cart-line,
+.cart_fav .ri-shopping-cart-fill  {
+  font-size: 30px;
+}
+
+.cart_fav .ri-heart-line,
+.cart_fav .ri-heart-fill{
+  margin-right: 1em;
+}
+
+a{
+  text-decoration: none;
+}
+
+.photos {
+  display: grid;
+  padding: 1em;
+  grid-gap: 10px;
+  grid-auto-rows: 100px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-flow: dense;
+}
+
+
+
+.image-container {
+  position: relative;
+}
+.big {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+.wide {
+  grid-column: span 2;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.heart-cart {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em 2em;
+}
+
+i{
+  cursor: pointer;
+}
+.heart-cart i {
+  font-size: 20px;
+}
+.ri-heart-add-line,
+.heart-img {
+  color: rgb(235, 50, 4);
+}
+
+.ri-add-circle-line,
+.ri-shopping-cart-fill {
+  color: rgb(5, 192, 152);
+}
+
+.cart-det {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em 1em;
+}
+
+.cart-container {
+  width: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cart-container img{
+  width: 200px;
+  object-fit: cover;
+}
+
+.cart-total {
+  margin: 1em auto;
+  text-align: right;
+  padding-right: 0.5em;
+}
+
+.cart-btn {
+  margin-top: 2em;
+  padding: 0.8em 1.5em;
+  border: unset;
+  border-radius: 5px;
+  background-color: teal;
+  color: wheat;
+  cursor: pointer;
+}
+
+
+.fav-items {
+  padding: 2em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fav {
+  width: 240px;
+  display: flex;
+  margin: 1em auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fav img{
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.disabled {
+  background-color: rgb(6, 197, 134);
+  color: black;
+  cursor: progress;
+}
